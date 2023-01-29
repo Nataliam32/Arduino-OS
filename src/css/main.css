@@ -1,0 +1,117 @@
+/* Main Stylization */
+
+main {
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+}
+
+.containerPrincipal{
+    display: flex;
+    height: 99%;
+    width: 70vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPrincipalDosProdutos{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.tituloDaSecao{
+    font-size: 25px;
+}
+
+.containerDosProdutos{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid var(--brand1);
+    border-radius: 10px;
+
+}
+
+.containerDosProdutos:hover{
+    border: 2px solid var(--brand2);
+}
+
+figure {
+    margin: 10px;
+}
+
+.figureProduto{
+   padding: 10px; 
+}
+
+.imgProduto{
+    height: 250px;
+    width: 300px;
+}
+
+.categoria{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--brand1);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.categoria:hover{
+    background-color: var(--brand2);
+}
+
+.nomeDoProduto{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.descricao{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.preco{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botaoAdicionar{
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: var(--brand1);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.botaoAdicionar:hover{
+    background-color: var(--brand2);
+}
+
+.containerSection{
+    height: 600px;
+    width: 30vw;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin-right: 7px;
+    display: inline-block;
+}
+
